@@ -1,0 +1,34 @@
+// fonts
+// main title
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+$mff: "Staatliches", cursive;
+// text
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+$ff1: "Lato", sans-serif;
+// colors
+
+// style
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $ff1;
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-transform: capitalize;
+  }
+  .main_title {
+    font-family: $mff;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+}
